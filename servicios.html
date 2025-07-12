@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios - NextLab | Proceso de Trabajo</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/servicios.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" href="public/img/logo.png" type="image/png">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="public/img/logo.png" alt="NextLab Logo">
+                <span>NextLab</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="servicios.html" class="nav-link active">Servicios</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#portfolio" class="nav-link">Portafolio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#about" class="nav-link">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#contact" class="nav-link">Contacto</a>
+                </li>
+            </ul>
+            <div class="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Services Section -->
+    <section class="services-section">
+        <div class="container">
+            <div class="section-header">
+                <h1>Nuestros <span class="purple-text">Servicios</span></h1>
+                <p>Soluciones digitales completas adaptadas a las necesidades de tu negocio</p>
+            </div>
+            
+            <div class="services-accordion">
+                <div class="accordion-item">
+                    <div class="accordion-header" onclick="toggleAccordion(this)">
+                        <div class="accordion-title">
+                            <div class="service-icon">
+                                <i class="fas fa-laptop-code"></i>
+                            </div>
+                            <h3>Desarrollo Web</h3>
+                        </div>
+                        <div class="accordion-arrow">
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="service-variants">
+                            <div class="variant-card">
+                                <div class="variant-icon">
+                                    <i class="fas fa-file-alt"></i>
+                                </div>
+                                <h4>Landing Page</h4>
+                                <p>Páginas de destino optimizadas para conversión, perfectas para campañas publicitarias y captación de leads.</p>
+                                <ul class="variant-features">
+                                    <li>Diseño optimizado para conversión</li>
+                                    <li>Responsive design</li>
+                                    <li>Formularios de contacto</li>
+                                    <li>Integración con Analytics</li>
+                                    <li>Optimización SEO básica</li>
+                                </ul>
+                                <div class="variant-price">Desde $799</div>
+                            </div>
+                            
+                            <div class="variant-card">
+                                <div class="variant-icon">
+                                    <i class="fas fa-globe"></i>
+                                </div>
+                                <h4>Página Completa</h4>
+                                <p>Sitios web corporativos con múltiples páginas, ideal para empresas que buscan presencia profesional online.</p>
+                                <ul class="variant-features">
+                                    <li>Hasta 10 páginas</li>
+                                    <li>Panel de administración</li>
+                                    <li>Blog integrado</li>
+                                    <li>Galería de imágenes</li>
+                                    <li>SEO avanzado</li>
+                                </ul>
+                                <div class="variant-price">Desde $1,599</div>
+                            </div>
+                            
+                            <div class="variant-card">
+                                <div class="variant-icon">
+                                    <i class="fas fa-database"></i>
+                                </div>
+                                <h4>Web con Funcionalidades</h4>
+                                <p>Aplicaciones web complejas con base de datos, sistemas de usuarios y funcionalidades avanzadas.</p>
+                                <ul class="variant-features">
+                                    <li>Base de datos personalizada</li>
+                                    <li>Sistema de usuarios</li>
+                                    <li>Panel de administración</li>
+                                    <li>APIs y integraciones</li>
+                                    <li>Hosting y mantenimiento</li>
+                                </ul>
+                                <div class="variant-price">Desde $2,999</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <div class="accordion-header" onclick="toggleAccordion(this)">
+                        <div class="accordion-title">
+                            <div class="service-icon">
+                                <i class="fas fa-bullhorn"></i>
+                            </div>
+                            <h3>Marketing Digital</h3>
+                        </div>
+                        <div class="accordion-arrow">
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="service-details">
+                            <p>Estrategias integrales de marketing digital para aumentar tu visibilidad online y generar más ventas.</p>
+                            <div class="service-grid">
+                                <div class="service-item">
+                                    <h4><i class="fab fa-google"></i> Google Ads</h4>
+                                    <p>Campañas publicitarias optimizadas en Google para captar clientes potenciales.</p>
+                                </div>
+                                <div class="service-item">
+                                    <h4><i class="fab fa-facebook"></i> Meta Ads</h4>
+                                    <p>Publicidad en Facebook e Instagram para aumentar el engagement y las conversiones.</p>
+                                </div>
+                                <div class="service-item">
+                                    <h4><i class="fas fa-envelope"></i> Email Marketing</h4>
+                                    <p>Automatización de emails para nutrir leads y fidelizar clientes.</p>
+                                </div>
+                                <div class="service-item">
+                                    <h4><i class="fas fa-edit"></i> Content Marketing</h4>
+                                    <p>Creación de contenido valioso para atraer y retener a tu audiencia.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <div class="accordion-header" onclick="toggleAccordion(this)">
+                        <div class="accordion-title">
+                            <div class="service-icon">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                            <h3>Analytics & SEO</h3>
+                        </div>
+                        <div class="accordion-arrow">
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="service-details">
+                            <p>Análisis profundo y optimización continua para mejorar tu posicionamiento y rendimiento online.</p>
+                            <div class="service-grid">
+                                <div class="service-item">
+                                    <h4><i class="fas fa-search"></i> SEO Técnico</h4>
+                                    <p>Optimización técnica completa para mejorar tu ranking en buscadores.</p>
+                                </div>
+                                <div class="service-item">
+                                    <h4><i class="fas fa-chart-bar"></i> Google Analytics</h4>
+                                    <p>Configuración y análisis de métricas para tomar decisiones basadas en datos.</p>
+                                </div>
+                                <div class="service-item">
+                                    <h4><i class="fas fa-file-alt"></i> Auditorías SEO</h4>
+                                    <p>Análisis exhaustivo de tu sitio web para identificar oportunidades de mejora.</p>
+                                </div>
+                                <div class="service-item">
+                                    <h4><i class="fas fa-chart-pie"></i> Reportes</h4>
+                                    <p>Informes detallados mensuales sobre el rendimiento de tus campañas.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <div class="accordion-header" onclick="toggleAccordion(this)">
+                        <div class="accordion-title">
+                            <div class="service-icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <h3>Social Media</h3>
+                        </div>
+                        <div class="accordion-arrow">
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="service-details">
+                            <p>Gestión profesional de redes sociales para construir una comunidad sólida y aumentar el engagement.</p>
+                            <div class="service-grid">
+                                <div class="service-item">
+                                    <h4><i class="fas fa-calendar-alt"></i> Gestión de Contenido</h4>
+                                    <p>Planificación y creación de contenido atractivo para tus redes sociales.</p>
+                                </div>
+                                <div class="service-item">
+                                    <h4><i class="fas fa-comments"></i> Community Management</h4>
+                                    <p>Interacción con tu audiencia y gestión de comentarios y mensajes.</p>
+                                </div>
+                                <div class="service-item">
+                                    <h4><i class="fas fa-palette"></i> Diseño Gráfico</h4>
+                                    <p>Creación de piezas gráficas profesionales para todas tus publicaciones.</p>
+                                </div>
+                                <div class="service-item">
+                                    <h4><i class="fas fa-bullseye"></i> Estrategia de Marca</h4>
+                                    <p>Desarrollo de una identidad digital coherente y atractiva para tu marca.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline Section -->
+    <section class="timeline-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nuestro <span class="purple-text">Proceso de Trabajo</span></h2>
+                <p>Cada proyecto sigue un proceso estructurado que asegura la calidad y el éxito</p>
+            </div>
+            
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Análisis y Consultoría</h3>
+                            <span class="timeline-step">Paso 1</span>
+                        </div>
+                        <p>Analizamos tu negocio, competencia y mercado objetivo. Identificamos oportunidades y definimos objetivos claros.</p>
+                        <ul class="timeline-features">
+                            <li>Auditoría completa del estado actual</li>
+                            <li>Análisis de competencia</li>
+                            <li>Definición de objetivos SMART</li>
+                            <li>Identificación de público objetivo</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Estrategia y Planificación</h3>
+                            <span class="timeline-step">Paso 2</span>
+                        </div>
+                        <p>Desarrollamos una estrategia personalizada y un plan de acción detallado para alcanzar tus objetivos.</p>
+                        <ul class="timeline-features">
+                            <li>Estrategia digital personalizada</li>
+                            <li>Plan de marketing y desarrollo</li>
+                            <li>Cronograma detallado</li>
+                            <li>Presupuesto y recursos</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Desarrollo e Implementación</h3>
+                            <span class="timeline-step">Paso 3</span>
+                        </div>
+                        <p>Ejecutamos el plan con precisión, desarrollando y configurando todas las herramientas necesarias.</p>
+                        <ul class="timeline-features">
+                            <li>Desarrollo web y diseño UI/UX</li>
+                            <li>Configuración de herramientas</li>
+                            <li>Creación de contenido</li>
+                            <li>Integración de sistemas</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Lanzamiento y Testing</h3>
+                            <span class="timeline-step">Paso 4</span>
+                        </div>
+                        <p>Lanzamos tu proyecto con pruebas exhaustivas y monitoreo continuo para asegurar un rendimiento óptimo.</p>
+                        <ul class="timeline-features">
+                            <li>Testing completo de funcionalidades</li>
+                            <li>Optimización de rendimiento</li>
+                            <li>Lanzamiento controlado</li>
+                            <li>Monitoreo en tiempo real</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Seguimiento y Optimización</h3>
+                            <span class="timeline-step">Paso 5</span>
+                        </div>
+                        <p>Monitoreamos resultados, analizamos datos y optimizamos continuamente para maximizar el ROI.</p>
+                        <ul class="timeline-features">
+                            <li>Análisis de métricas y KPIs</li>
+                            <li>Optimización continua</li>
+                            <li>Reportes mensuales</li>
+                            <li>Soporte técnico permanente</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>¿Listo para comenzar tu <span class="purple-text">proyecto?</span></h2>
+                <p>Hablemos sobre cómo podemos aplicar nuestro proceso probado a tu negocio específico.</p>
+                <div class="cta-buttons">
+                    <a href="index.html#contact" class="btn btn-primary">Comenzar Ahora</a>
+                    <a href="index.html#about" class="btn btn-secondary">Conocer Más</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+</html> 
