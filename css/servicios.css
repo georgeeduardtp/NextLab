@@ -8,6 +8,17 @@
     overflow: hidden;
 }
 
+.services-section .hero-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.5;
+    z-index: 0;
+}
+
 .services-section::before {
     content: '';
     position: absolute;
@@ -19,6 +30,11 @@
         radial-gradient(circle at 20% 50%, rgba(139, 92, 246, 0.1) 0%, transparent 50%),
         radial-gradient(circle at 80% 20%, rgba(168, 85, 247, 0.1) 0%, transparent 50%);
     z-index: 1;
+}
+
+.services-section .container {
+    position: relative;
+    z-index: 2;
 }
 
 .services-section .section-header {
